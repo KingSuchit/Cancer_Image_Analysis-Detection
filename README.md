@@ -30,7 +30,7 @@ b. Gaussian Blur is applied to smooth the image.
 c. Using Otsu's thresholding for binary segmentation.
 d. Find contours to detect regions of interest and draw bounding boxes around them.
 
-## Step 5: Image Prediction
+## Step 5: Image Class Prediction
 The preprocessed image is reshaped to match the input dimensions required by the model (1, 500, 500, 3) and fed into the model to get predictions. The output class is determined based on the highest predicted probability.
 
 ## Step 6: Additional Image Classification
