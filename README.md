@@ -15,9 +15,13 @@ The pre-trained model is downloaded using the gdown command.
 The CNN model is constructed as follows:
 
 a. Input Layer: Takes a 500x500x3 image.
+
 b. Convolutional Layers: Feature extraction using two convolutional layers with ReLU activation.
+
 c. Pooling Layers: Reduces the dimensionality with MaxPooling layers.
+
 d. Flatten and Dense Layers: Converts feature maps into a single vector and feeds them into dense layers.
+
 e. Output Layer: Outputs a sigmoid-activated single neuron for binary classification (e.g., benign or malignant).
 
 The model is compiled using the RMSprop optimizer and a binary cross-entropy loss function.
@@ -27,8 +31,11 @@ The code uses the model.load_weights to load the pre-trained weights from a down
 <a name="my-custom-anchor-point"></a>
 ## Step 5: Image Preprocessing and Visualization
 The uploaded image is read using OpenCV and resized to 500x500 pixels.
+
 a. Converting the image to grayscale.
+
 b. Gaussian Blur is applied to smooth the image.
+
 c. Using Otsu's thresholding for binary segmentation.
 
 ## Step 6: Image Preprocessing and Visualization
