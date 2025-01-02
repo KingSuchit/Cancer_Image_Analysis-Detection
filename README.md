@@ -44,7 +44,7 @@ The tumor regions are detected by finding contours to detect tumor regions and d
 ## Step 7: Image Class Prediction
 The preprocessed image is reshaped to match the input dimensions required by the model (1, 500, 500, 3) and fed into the model to get predictions. The output class is determined based on the highest predicted probability.
 
-## Step 8-10: Additional Image Classification
+## Steps 8-10: Additional Image Classification
 Another sample image is downloaded and processed similarly for classification as in [Steps 5-7](#my-custom-anchor-point) using the same pre-trained model.
 
 A detailed explanation of the code is also given in [Cancer Image Analysis Tutorial](Cancer_Image_Analysis_Tutorial.pdf)
