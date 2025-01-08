@@ -1,6 +1,6 @@
 # Cancer Image Analysis and Detection
 
-The notebook focuses on cancer image analysis and detection using a convolutional neural network (CNN) model. You can also access the notebook on [Google Colab](https://colab.research.google.com/drive/1d80ICJ1M1PzWZ3aYYn00tREXpg0mUVoQ#scrollTo=SufTLnIXmOpF). The dataset and saved model weights can be accessed in [Google Drive](https://drive.google.com/drive/u/0/folders/1yK2W4D9y3VdnIg5SoDeGAWD1e1rSAKGp). 
+The notebook focuses on cancer image analysis and detection using a convolutional neural network (CNN) model. You can also access the notebook on [Google Colab]([https://colab.research.google.com/drive/1d80ICJ1M1PzWZ3aYYn00tREXpg0mUVoQ#scrollTo=SufTLnIXmOpF](https://colab.research.google.com/drive/1d80ICJ1M1PzWZ3aYYn00tREXpg0mUVoQ?usp=sharing)). The dataset and saved model weights can be accessed in [Google Drive](https://drive.google.com/drive/u/0/folders/1yK2W4D9y3VdnIg5SoDeGAWD1e1rSAKGp). 
 
 Below is a step-by-step outline of the main components in the notebook:
 
